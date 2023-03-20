@@ -8,27 +8,35 @@
     <title>Google</title>
     <style>
     body,html {
+        font-size: 16px;
         margin: 0px;
         padding:0px;
         background-color: white;
         font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
         font-size: 81.25%;
         }
-     .goole.icone{
-            margin: auto;
+     .gooleicone{
+        width: 100%;
+        position: absolute;
+        margin: auto;
             
         }
-     .pesquisa{ 
 
-         display: flex;
+     .icone{
+        width: auto;
+        margin-top: 231px;
+        margin-left: 455px;
+        margin-bottom: 30px;
         
+        }       
+     .pesquisa{ 
+         display: flex;     
          height: 44px;
          background: #fff;
          border: 1px solid #dfe1e5;
-         box-shadow: none;
+         box-shadow: 1px 0px 1px 1px #45474b2f;
          border-radius: 24px;
          margin: 0 auto;
-      ;
          width: auto;
          width: 584px;
        }
@@ -46,12 +54,15 @@
    
     <div>
         <div class="cabeça"></div>
-        <div class="goole.icone">
-            <img src="googlelogo_color_160x56dp.png" alt="">
+        <div class="gooleicone">
+            <img class="icone" src="googlelogo_color_160x56dp.png" alt="">
 
             <div class="form"> 
+                <div class="lupinha" style="-webkit-mask-image: url(//resources/images/icon_search.svg);">
+
+                </div>
                 <form>
-                    <input class="pesquisa" type="search">
+                    <input class="pesquisa" type="search" placeholder=" Pesquise no Google ou digite um URL">
                 </form>
             </div>
 
