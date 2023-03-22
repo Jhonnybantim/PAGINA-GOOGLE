@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,73 +8,111 @@
     <link rel="shortcut icon" href="fivecon.png" type="image/x-icon">
     <title>Google</title>
     <style>
-    body,html {
-        font-size: 16px;
-        margin: 0px;
-        padding:0px;
-        background-color: white;
-        font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
-        font-size: 81.25%;
-        }
-     .gooleicone{
-        width: 100%;
-        position: absolute;
-        margin: auto;
-            
+        body,
+        html {
+            font-size: 16px;
+            margin: 0px;
+            padding: 0px;
+            background-color: white;
+            font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+            font-size: 81.25%;
         }
 
-     .icone{
-        width: auto;
-        margin-top: 231px;
-        margin-left: 355px;
-        margin-bottom: 30px;
-        
-        }       
-     .pesquisa{ 
-         display: flex;     
-         height: 44px;
-         background: #fff;
-         border: 1px solid #dfe1e5;
-         box-shadow: 1px 0px 1px 1px #45474b2f;
-         border-radius: 24px;
-         margin: 0 auto;
-         width: auto;
-         width: 600px;
-       }
-       .lupinha{
-        background-color: black;
-        width: 25px;
-        height: 25px;
-       }
-        
-        
-        
-        
-        
-        
-        
-        
-        </style>
+        .cabeca {
+            height: 50px;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            text-align: left;
+        }
+
+        .quadradinhos img {
+            width: 15px;
+            height: 15px;
+
+        }
+
+        .imagenlogin img {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+
+
+        }
+
+
+        .gooleicone {
+            width: 100%;
+            position: absolute;
+            margin: auto;
+
+        }
+
+        .icone {
+            width: auto;
+            margin-top: 231px;
+            margin-left: 355px;
+            margin-bottom: 30px;
+
+        }
+
+        .pesquisa {
+            display: flex;
+            height: 44px;
+            background: #fff;
+            border: 1px solid #dfe1e5;
+            box-shadow: 1px 0px 1px 1px #45474b2f;
+            border-radius: 24px;
+            margin: 0 auto;
+            width: auto;
+            width: 600px;
+        }
+
+        .lupinha {
+            background-color: black;
+            width: 25px;
+            height: 25px;
+        }
+    </style>
 </head>
+
 <body>
-   
+    <div class="cabeca">
+        <div>
+            <a href="">Gemail</a>
+        </div>
+        <div>
+            <a href="">Imagens</a>
+        </div>
+        <div class="hamburges">
+            <div class="quadradinhos">
+                <img src="imagens/quadradobolinhas.png" alt="">
+            </div>
+        </div>
+        <div class="imagenlogin">
+            <img src="imagens/FOTOLOGI.jpeg" alt="">
+    
+        </div>
+    </div>
+    
     <div>
         <div class="cabeça"></div>
         <div class="gooleicone">
             <img class="icone" src="googlelogo_color_160x56dp.png" alt="">
 
-            <div class="form"> 
-                
+            <div class="form">
+
                 <form>
-                    
-                    <input class="pesquisa" type="search" placeholder=" Pesquise no Google ou digite um URL"   >
-                    
+
+                    <input class="pesquisa" type="search" placeholder=" Pesquise no Google ou digite um URL">
+
                 </form>
             </div>
 
         </div>
 
     </div>
-    
+
 </body>
+
 </html>
